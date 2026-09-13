@@ -378,6 +378,9 @@ kotaku.com#@##dfp-ad-1
 
 ! https://forums.lanik.us/viewtopic.php?f=64&t=40826
 @@||d1xrtnyoeeet33.cloudfront.net/assets/js/lib/*$script,domain=calgaryherald.com|calgarysun.com|canoe.com|edmontonsun.com|financialpost.com|leaderpost.com|lfpress.com|montrealgazette.com|nationalpost.com|ottawacitizen.com|ottawasun.com|theprovince.com|thestarphoenix.com|torontosun.com|vancouversun.com|windsorstar.com|winnipegsun.com
+! https://github.com/uBlockOrigin/uAssets/issues/24654#issuecomment-5649876266
+calgaryherald.com,calgarysun.com,canada.com,canoe.com,driving.ca,edmontonjournal.com,edmontonsun.com,financialpost.com,leaderpost.com,lfpress.com,montrealgazette.com,nationalpost.com,ontariofarmer.com,ottawacitizen.com,ottawasun.com,thegrowthop.com,theprovince.com,thestarphoenix.com,tj.news,torontosun.com,vancouversun.com,windsorstar.com,winnipegsun.com##+js(set, Object.prototype.adService.initialize, noopFunc)
+@@||cdn.q0losid.com/prod/pni/loader.min.js$domain=calgaryherald.com|calgarysun.com|canada.com|canoe.com|driving.ca|edmontonjournal.com|edmontonsun.com|financialpost.com|intelligencer.ca|leaderpost.com|lfpress.com|montrealgazette.com|nationalpost.com|ontariofarmer.com|ottawacitizen.com|ottawasun.com|standard-freeholder.com|thegrowthop.com|theprovince.com|thestarphoenix.com|tj.news|torontosun.com|vancouversun.com|windsorstar.com|winnipegsun.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2353
 @@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
@@ -1321,11 +1324,7 @@ as.com,caracol.com.co,los40.com##+js(set, DTM.trackAsyncPV, noopFunc)
 ! https://github.com/uBlockOrigin/uAssets/issues/7910
 @@||metacritic.com/js/omniture/uuid.js$script,1p
 ! https://github.com/uBlockOrigin/uAssets/issues/33587
-metacritic.com##+js(rpnt, script, appName:"metacritic", appName:"etacritic")
-/etacritic/*$xhr,uritransform=/\/etacritic\//\/metacritic\//,domain=metacritic.com
-!#if ext_ubol
-/(.*)\/etacritic\/(.*)/$xhr,uritransform=//$1\/metacritic\/$2/,domain=metacritic.com
-!#endif
+metacritic.com##+js(rpnt, script, adsEnabled:true, adsEnabled:false)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6539
 @@||pinpng.com^$css,1p
@@ -6054,3 +6053,9 @@ ds.163.com##+js(set, Sentry.configureScope, noopFunc)
 ! https://github.com/uBlockOrigin/uAssets/issues/34371
 ||cdn.shopify.com/extensions/*/ba_tracking.js$domain=ridge.com,important
 ridge.com##+js(set, baMet.register, noopFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/34471
+hktvmall.com##+js(set, Object.prototype.componentInScreen, noopFunc)
+
+! https://everythingmoe.com/post/anikotodomains.html
+@@||mapper.nekostream.site/api/mal/*/*/$xhr,strict3p
