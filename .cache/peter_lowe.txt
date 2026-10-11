@@ -8,10 +8,10 @@
 !
 !For more information about this list, see: https://pgl.yoyo.org/adservers/
 !----
-!Last modified: Wed, 30 Sep 2026 11:38:16 GMT
+!Last modified: Sat, 10 Oct 2026 15:15:08 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3551
+!Entries:       3548
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
 !This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=0&mimetype=plaintext
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
@@ -139,7 +139,6 @@
 ||ad.liveinternet.ru^
 ||ad.lupa.cz^
 ||ad.mediastorm.hu^
-||ad.mg^
 ||ad.missena.io^
 ||ad.musicmatch.com^
 ||ad.myapple.pl^
@@ -197,7 +196,6 @@
 ||adbrite.com^
 ||adbroker.de^
 ||adbutler.com^
-||adcampo.com^
 ||adcannyads.com^
 ||adcash.com^
 ||adcast.deviantart.com^
@@ -706,7 +704,6 @@
 ||adservrs.com.edgekey.net^
 ||adsfac.eu^
 ||adsfac.net^
-||adsfac.us^
 ||adsflowprime.top^
 ||adshrink.it^
 ||adside.com^
@@ -767,7 +764,6 @@
 ||adtrk1.com^
 ||adultadvertising.com^
 ||adv-adserver.com^
-||adv.donejty.pl^
 ||adv.freeonline.it^
 ||adv.hwupgrade.it^
 ||adv.mpvc.it^
@@ -866,7 +862,6 @@
 ||amazon-adsystem.com^
 ||americash.com^
 ||amidsttruly.com^
-||ampscamp.net^
 ||amung.us^
 ||analytics-fe.digital-cloud-prem.medallia.eu^
 ||analytics-production.hapyak.com^
@@ -1522,6 +1517,7 @@
 ||dpbolvw.net^
 ||dpu.samsungelectronics.com^
 ||dq95d35.com^
+||dragonbats.com^
 ||drumcash.com^
 ||dsp.colpirio.com^
 ||dsp.io^
@@ -1553,7 +1549,6 @@
 ||elasticchange.com^
 ||elderlytown.com^
 ||elitedollars.com^
-||em1.yoursantander.co.uk^
 ||email-link.adtidy.info^
 ||email-link.adtidy.net^
 ||email-link.adtidy.org^
@@ -1616,6 +1611,7 @@
 ||everestads.net^
 ||everesttech.net^
 ||evergage.com^
+||eversales.space^
 ||evs.sgmt.loom.com^
 ||evyy.net^
 ||exampleshake.com^
@@ -1895,7 +1891,6 @@
 ||iadnet.com^
 ||ibillboard.com^
 ||icptrack.com^
-||icywinter.com^
 ||id5-sync.com^
 ||idealadvertising.net^
 ||idevaffiliate.com^
@@ -1918,6 +1913,7 @@
 ||imonomy.com^
 ||imp.i312864.net^
 ||impossibleexpansion.com^
+||imprese.cz^
 ||impressionmedia.cz^
 ||impressionmonster.com^
 ||improvedigital.com^
@@ -2675,6 +2671,7 @@
 ||r.logrocket.io^
 ||r.marketing.dubaisothebys.com^
 ||r.msn.com^
+||r.openai.com^
 ||r.scoota.co^
 ||r.sibmail.havasit.com^
 ||r1.arts-mail.com^
@@ -2870,6 +2867,7 @@
 ||servedbyopenx.com^
 ||servethis.com^
 ||services.hearstmags.com^
+||session.bugsnag.kindle.amazon.dev^
 ||sessioncam.com^
 ||sexcounter.com^
 ||sexlist.com^
@@ -2888,6 +2886,7 @@
 ||shockinggrass.com^
 ||shoppingads.com^
 ||showads.pubmatic.com^
+||shredform.com^
 ||shrillspoon.com^
 ||shxtrk.com^
 ||sicksmash.com^
@@ -3275,7 +3274,6 @@
 ||tracking.netalerts.io^
 ||tracking.olx-st.com^
 ||tracking.orixa-media.com^
-||tracking.p-l-m.com^
 ||tracking.wetter.at^
 ||tracking01.walmart.com^
 ||tracking101.com^
@@ -3318,7 +3316,6 @@
 ||trk.4ff.pro^
 ||trk.bc.shutterfly.com^
 ||trk.pinterest.com^
-||trk.sayerfinancial.com^
 ||trk.techtarget.com^
 ||trk1.avdlink.net^
 ||trk42.net^
