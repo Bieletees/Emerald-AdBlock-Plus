@@ -2249,6 +2249,8 @@ usnews.com##+js(set, Object.prototype.vjsPlayer.ads, noopFunc)
 
 ! https://www.reddit.com/r/neopets/comments/jaqza5/
 @@||cdn.playwire.com/bolt/js/zeus/embed.js$script,domain=neopets.com
+! https://github.com/uBlockOrigin/uAssets/issues/34774
+neopets.com#@##ad-overlay
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8036
 @@||lubin.pl^$cname
@@ -6071,3 +6073,6 @@ expatexplorer.hsbc.com##+js(trusted-set, HSBC, 'json:{"SITE":{},"DCS":{},"PAGE":
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34562
 @@||homedepot.com.ssl.d2.sc.omtrdc.net^$xhr,domain=homedepot.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/34743
+||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=google-ima.js,domain=aryplus.tv
