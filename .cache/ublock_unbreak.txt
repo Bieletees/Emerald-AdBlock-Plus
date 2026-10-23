@@ -2249,6 +2249,8 @@ usnews.com##+js(set, Object.prototype.vjsPlayer.ads, noopFunc)
 
 ! https://www.reddit.com/r/neopets/comments/jaqza5/
 @@||cdn.playwire.com/bolt/js/zeus/embed.js$script,domain=neopets.com
+! https://github.com/uBlockOrigin/uAssets/issues/34774
+neopets.com#@##ad-overlay
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8036
 @@||lubin.pl^$cname
@@ -4593,7 +4595,7 @@ neurotray.com##+js(nano-stb, /EzoIvent|TDELAY/, 5000)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12214 - Video breakage
 ! https://github.com/uBlockOrigin/uAssets/issues/24754
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js:5,domain=abczdrowie.pl|animezone.pl|chillizet.pl|claudia.pl|echirurgia.pl|elevensports.pl|elle.pl|elleman.pl|fm.tuba.pl|focusnauka.pl|games.cdn.famobi.com|glamour.pl|grydladzieci.pl|ipla.tv|ipla.tv|kobieta.pl|meloradio.pl|mojegotowanie.pl|mojpieknyogrod.pl|money.pl|national-geographic.pl|parenting.pl|partner.redefine.pl|playpuls.pl|pluscdn.pl|polsatgo.pl|polsatnews.pl|polsatsport.pl|przyslijprzepis.pl|radioplus.pl|sadeczanin.info|tvokazje.pl|tvp.pl|twojapogoda.pl|video.onnetwork.tv|videotarget.pl|wp.pl|wtk.pl|interia.pl|www.polsatnews.pl|autocentrum.pl|~wiadomosci.wp.pl
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js:5,domain=animezone.pl|chillizet.pl|claudia.pl|echirurgia.pl|elevensports.pl|elle.pl|elleman.pl|fm.tuba.pl|focusnauka.pl|games.cdn.famobi.com|glamour.pl|grydladzieci.pl|ipla.tv|ipla.tv|kobieta.pl|meloradio.pl|mojegotowanie.pl|mojpieknyogrod.pl|national-geographic.pl|partner.redefine.pl|playpuls.pl|pluscdn.pl|polsatgo.pl|polsatnews.pl|polsatsport.pl|przyslijprzepis.pl|radioplus.pl|sadeczanin.info|tvokazje.pl|tvp.pl|twojapogoda.pl|video.onnetwork.tv|videotarget.pl|wtk.pl|interia.pl|www.polsatnews.pl
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/16gwdpd/virgin_media_player_not_visible_with_ublock/
 virginmediatelevision.ie##+js(set, google.ima.dai, {})
@@ -6071,3 +6073,9 @@ expatexplorer.hsbc.com##+js(trusted-set, HSBC, 'json:{"SITE":{},"DCS":{},"PAGE":
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34562
 @@||homedepot.com.ssl.d2.sc.omtrdc.net^$xhr,domain=homedepot.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/34743
+||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=google-ima.js,domain=aryplus.tv
+
+! https://github.com/uBlockOrigin/uAssets/issues/34837
+www.bankofamerica.com##+js(no-fetch-if, smetrics.bankofamerica.com)
