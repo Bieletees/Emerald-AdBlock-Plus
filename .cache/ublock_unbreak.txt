@@ -5930,9 +5930,6 @@ temperatur.nu#@#.holidAds:upward(1)
 ! https://github.com/uBlockOrigin/uAssets/discussions/32384
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=fastcompany.com,redirect=google-ima.js,important
 
-! https://github.com/uBlockOrigin/uAssets/issues/32074
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,3p,redirect-rule,from=webmd.com
-
 ! https://github.com/uBlockOrigin/uAssets/issues/32196
 ||ruamupr.com^$script,redirect=noopjs,domain=thegatewaypundit.com
 thegatewaypundit.com##+js(rmnt, script, Object.getOwnPropertyDescriptor(Document.prototype)
@@ -6079,3 +6076,21 @@ expatexplorer.hsbc.com##+js(trusted-set, HSBC, 'json:{"SITE":{},"DCS":{},"PAGE":
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34837
 www.bankofamerica.com##+js(no-fetch-if, smetrics.bankofamerica.com)
+
+! https://github.com/uBlockOrigin/uAssets/issues/34906
+||transcend-cdn.com/cm/*/airgap.js$domain=northeast.aaa.com
+@@||assets.adobedtm.com/*/satelliteLib-$script,domain=northeast.aaa.com
+@@||assets.adobedtm.com/*-source.min.js$script,domain=northeast.aaa.com
+northeast.aaa.com##+js(set, _uxa, {})
+northeast.aaa.com##+js(set, _uxa.push, noopFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/34937
+roaringapps.com##+js(set, Sentry, {})
+roaringapps.com##+js(set, Sentry.onLoad, noopFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/34997
+funradio.fr##+js(trusted-replace-outbound-text, String.prototype.trim, /^STOP_GTM_WARNING$/, IMA_ADS)
+funradio.fr##+js(trusted-set, getUserConsentStatus, json:{"dailymotion":true}, as, function)
+
+! https://github.com/uBlockOrigin/uAssets/issues/34996
+@@||speedcubeshop.com/cdn/shopifycloud/consent-tracking-api/v*/consent-tracking-api.js$1p
