@@ -3996,8 +3996,9 @@ deadline.com#@#.cnx-player-wrapper
 
 ! ex.co
 ! https://github.com/uBlockOrigin/uAssets/issues/33077
-@@||ex.co/player/$script,domain=standard.co.uk
-@@||cdn.ex.co^$image,media,domain=standard.co.uk
+! https://www.reddit.com/r/uBlockOrigin/comments/1xhkchn/how_do_i_unblock_videos_on_the_independent_website/
+@@||ex.co/player/$script,domain=independent.co.uk|standard.co.uk
+@@||cdn.ex.co^$image,media,domain=independent.co.uk|standard.co.uk
 @@||cdn.ex.co/content/$xhr
 
 ! https://github.com/uBlockOrigin/uAssets/issues/17000
@@ -6094,3 +6095,10 @@ funradio.fr##+js(trusted-set, getUserConsentStatus, json:{"dailymotion":true}, a
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34996
 @@||speedcubeshop.com/cdn/shopifycloud/consent-tracking-api/v*/consent-tracking-api.js$1p
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/80265#issuecomment-818787175
+||log.nordot.jp^$badfilter
+||log.nordot.jp/pageview
+
+! https://github.com/uBlockOrigin/uAssets/issues/35085
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5,domain=theglobeandmail.com
