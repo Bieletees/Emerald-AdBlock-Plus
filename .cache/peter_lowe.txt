@@ -8,10 +8,10 @@
 !
 !For more information about this list, see: https://pgl.yoyo.org/adservers/
 !----
-!Last modified: Fri, 23 Oct 2026 09:37:39 GMT
+!Last modified: Sat, 07 Nov 2026 18:50:37 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3563
+!Entries:       3560
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
 !This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=0&mimetype=plaintext
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
@@ -51,6 +51,7 @@
 ||7cnq.net^
 ||82o9v830.com^
 ||a-ads.com^
+||a.bestcontentfood.top^
 ||a.mktw.net^
 ||a.pemsrv.com^
 ||a.sakh.com^
@@ -206,7 +207,6 @@
 ||adcenter.net^
 ||adclick.com^
 ||adclient1.tucows.com^
-||adclixx.net^
 ||adcolony.com^
 ||adcomplete.com^
 ||adconion.com^
@@ -234,6 +234,7 @@
 ||adform.com^
 ||adform.net^
 ||adformdsp.net^
+||adfox.cam^
 ||adhaven.com^
 ||adhese.be^
 ||adhese.com^
@@ -347,6 +348,7 @@
 ||ads-impressions.com^
 ||ads-monitor.xyz^
 ||ads-twitter.com^
+||ads.365.mk^
 ||ads.5ci.lt^
 ||ads.73dpi.com^
 ||ads.aavv.com^
@@ -432,7 +434,6 @@
 ||ads.footymad.net^
 ||ads.forbes.net^
 ||ads.formit.cz^
-||ads.fortunecity.com^
 ||ads.fotosidan.se^
 ||ads.friendfinder.com^
 ||ads.gamecity.net^
@@ -481,6 +482,7 @@
 ||ads.liberte.pl^
 ||ads.linkedin.com^
 ||ads.livenation.com^
+||ads.locksecures.com^
 ||ads.lzjl.com^
 ||ads.ma7.tv^
 ||ads.mail.bg^
@@ -560,7 +562,6 @@
 ||ads.suomiautomaatti.com^
 ||ads.supplyframe.com^
 ||ads.syscdn.de^
-||ads.themovienation.com^
 ||ads.thestar.com^
 ||ads.thrillsaffiliates.com^
 ||ads.tiktok.com^
@@ -704,9 +705,7 @@
 ||adservingfront.com^
 ||adservrs.com^
 ||adservrs.com.edgekey.net^
-||adsfac.eu^
 ||adsfac.net^
-||adsflowprime.top^
 ||adshrink.it^
 ||adside.com^
 ||adsiduous.com^
@@ -866,6 +865,7 @@
 ||amazon-adsystem.com^
 ||americash.com^
 ||amidsttruly.com^
+||ampscamp.net^
 ||amung.us^
 ||analytics-fe.digital-cloud-prem.medallia.eu^
 ||analytics-production.hapyak.com^
@@ -987,6 +987,7 @@
 ||ba.afl.rakuten.co.jp^
 ||backbeatmedia.com^
 ||backtension.com^
+||bagave.com^
 ||bagsurprise.com^
 ||banik.redigy.cz^
 ||banner.ambercoastcasino.com^
@@ -1034,7 +1035,6 @@
 ||bannersng.yell.com^
 ||bannerspace.com^
 ||bannerswap.com^
-||bannertrack.net^
 ||bannery.cz^
 ||bannieres.wdmedia.net^
 ||bans.bride.ru^
@@ -1240,7 +1240,6 @@
 ||cl0udh0st1ng.com^
 ||clck.ru^
 ||clevernt.com^
-||click-1.pl^
 ||click-v4.expclknb.com^
 ||click.airmalta-mail.com^
 ||click.aliexpress.com^
@@ -1284,6 +1283,7 @@
 ||click2freemoney.com^
 ||click4.pro^
 ||clickadddilla.com^
+||clickadu.io^
 ||clickadz.com^
 ||clickagents.com^
 ||clickbank.com^
@@ -1292,7 +1292,6 @@
 ||clickbrokers.com^
 ||clickcease.com^
 ||clickdensity.com^
-||clickedyclick.com^
 ||clickfuse.com^
 ||clickhereforcellphones.com^
 ||clickngo.top^
@@ -1404,6 +1403,7 @@
 ||counter.yadro.ru^
 ||counting.kmindex.ru^
 ||coupling-media.de^
+||cowbelltime.com^
 ||coxmt.com^
 ||cozyhillside.com^
 ||cpalead.com^
@@ -1488,6 +1488,7 @@
 ||dev.visualwebsiteoptimizer.com^
 ||dewdroplagoon.com^
 ||dianomi.com^
+||dicecandies.com^
 ||didtheyreadit.com^
 ||digestiondrawer.com^
 ||digital-ads.s3.amazonaws.com^
@@ -1784,7 +1785,6 @@
 ||go.xlirdr.com^
 ||go2affise.com^
 ||go2cloud.org^
-||godseedband.com^
 ||goingplatinum.com^
 ||goldstats.com^
 ||gondolagnome.com^
@@ -1874,6 +1874,7 @@
 ||hostedads.realitykings.com^
 ||hotjar.com^
 ||hotlog.ru^
+||hotrank.com.tw^
 ||hoverowl.com^
 ||hs-analytics.net^
 ||hs-banner.com^
@@ -1901,6 +1902,7 @@
 ||iadnet.com^
 ||ibillboard.com^
 ||icptrack.com^
+||icywinter.com^
 ||id5-sync.com^
 ||idealadvertising.net^
 ||idevaffiliate.com^
@@ -2042,13 +2044,11 @@
 ||largebrass.com^
 ||laughcloth.com^
 ||launchbit.com^
-||layer-ad.de^
 ||layer-ads.de^
 ||lazybumblebee.com^
 ||lbn.ru^
 ||lead02.com^
 ||leadboltads.net^
-||leadclick.com^
 ||leadinfo.net^
 ||leadingedgecash.com^
 ||leadplace.fr^
@@ -2099,7 +2099,6 @@
 ||linkprice.com^
 ||linkrain.com^
 ||linkreferral.com^
-||links-ranking.de^
 ||links.email.crunchbase.com^
 ||links.housekeep.com^
 ||links.prosservice.fr^
@@ -2111,13 +2110,13 @@
 ||linksynergy.com^
 ||linktarget.com^
 ||linkvertise.com^
-||liquidad.narrowcastmedia.com^
 ||litix.io^
 ||live.trmzum.com^
 ||liveadexchanger.com^
 ||liveintent.com^
 ||livelylaugh.com^
 ||liverail.com^
+||livetrafficfeed.com^
 ||livingsleet.com^
 ||lizardslaugh.com^
 ||lkqd.com^
@@ -2159,14 +2158,12 @@
 ||madinad.com^
 ||madisonavenue.com^
 ||madvertise.de^
-||magicadz.co^
 ||magicaljoin.com^
 ||magnetise.io^
 ||magsrv.com^
 ||mail-ads.google.com^
 ||maliva-mcs.byteoversea.com^
 ||maltiverse.lt.acemlnc.com^
-||manageadv.cblogs.eu^
 ||mantisadnetwork.com^
 ||mapcommand.com^
 ||marinsm.com^
@@ -2293,7 +2290,6 @@
 ||monkeyapes.com^
 ||monsterpops.com^
 ||mookie1.com^
-||moonwager.com^
 ||mopub.com^
 ||morefolks.com^
 ||motionlessmeeting.com^
@@ -2402,7 +2398,6 @@
 ||oas.toronto.com^
 ||oas.uniontrib.com^
 ||oascentral.chicagobusiness.com^
-||oascentral.fortunecity.com^
 ||oascentral.register.com^
 ||objecthero.com^
 ||obs.sd4823.spglobal.com^
@@ -2416,7 +2411,6 @@
 ||offerforge.com^
 ||offermatica.com^
 ||offers.gateway-lts450.com^
-||offers.ltsc-has.com^
 ||offshoregeology.com^
 ||ogads-pa.googleapis.com^
 ||oglasi.posjetnica.com^
@@ -2557,6 +2551,7 @@
 ||plausibleio.workers.dev^
 ||play4traffic.com^
 ||playhaven.com^
+||playwarren.com^
 ||pleasantpump.com^
 ||plista.com^
 ||plotrabbit.com^
@@ -2659,6 +2654,7 @@
 ||pushengage.com^
 ||pushno.com^
 ||pushtrack.co^
+||pushub.net^
 ||px.dynamicyield.com^
 ||px.gfycat.com^
 ||px.mountain.com^
@@ -2684,6 +2680,7 @@
 ||quirkysugar.com^
 ||quisma.com^
 ||quizzicalzephyr.com^
+||r.brandreward.com^
 ||r.drinksdirect.net^
 ||r.logrocket.io^
 ||r.marketing.dubaisothebys.com^
@@ -3003,6 +3000,7 @@
 ||spyrep.com^
 ||spywarelabs.com^
 ||spywords.com^
+||srv.sayyac.com^
 ||srvmath.com^
 ||srvtrck.com^
 ||srwww1.com^
@@ -3049,6 +3047,7 @@
 ||stats.rdphv.net^
 ||stats.self.com^
 ||stats.stb-ottow.de^
+||stats.topofblogs.com^
 ||stats.townnews.com^
 ||stats.wordpress.com^
 ||stats.wp.com^
@@ -3232,7 +3231,6 @@
 ||totemcash.com^
 ||touchclarity.com^
 ||tour.brazzers.com^
-||tr.api.fanbyte.com^
 ||tr.p.360.cn^
 ||tracecontent.com^
 ||track-eu.customer.io^
@@ -3392,7 +3390,6 @@
 ||urlcash.net^
 ||us.a1.yimg.com^
 ||userreplay.com^
-||users.maxcluster.net^
 ||utils.mediageneral.net^
 ||utl-1.com^
 ||uu.domainforlite.com^
