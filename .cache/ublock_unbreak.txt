@@ -394,8 +394,8 @@ calgaryherald.com,calgarysun.com,canada.com,canoe.com,driving.ca,edmontonjournal
 !#if !ext_ubol
 ||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=cbsnews.com,redirect=google-ima.js,important
 !#else
-cbsnews.com>>##+js(no-fetch-if, v.fwmrm.net/ad/g/, war:noop-vmap1.xml)
-cbsnews.com>>##+js(no-xhr-if, v.fwmrm.net/ad/g/, war:noop-vmap1.xml)
+cbsnews.com>>##+js(trusted-prevent-fetch, v.fwmrm.net/ad/g/, <vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0"></vmap:VMAP>)
+cbsnews.com>>##+js(trusted-prevent-xhr, v.fwmrm.net/ad/g/, <vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0"></vmap:VMAP>)
 !#endif
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=cbsnews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai_debug.js$domain=cbsnews.com
@@ -1175,7 +1175,6 @@ ebay.com#@#li.s-item:has(span:has-text(SPONSORED))
 
 ! To counter the adswizz filter in Peter Lowe's list
 ||adswizz.com^$badfilter
-||adswizz.com^$3p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/d6zbqv/login_popup_for_disqus_being_blocked/
 @@||disqus.com/next/login/$popup
@@ -3996,8 +3995,9 @@ deadline.com#@#.cnx-player-wrapper
 
 ! ex.co
 ! https://github.com/uBlockOrigin/uAssets/issues/33077
-@@||ex.co/player/$script,domain=standard.co.uk
-@@||cdn.ex.co^$image,media,domain=standard.co.uk
+! https://www.reddit.com/r/uBlockOrigin/comments/1xhkchn/how_do_i_unblock_videos_on_the_independent_website/
+@@||ex.co/player/$script,domain=independent.co.uk|standard.co.uk
+@@||cdn.ex.co^$image,media,domain=independent.co.uk|standard.co.uk
 @@||cdn.ex.co/content/$xhr
 
 ! https://github.com/uBlockOrigin/uAssets/issues/17000
@@ -4228,7 +4228,6 @@ delta.com#@#.adv-container
 ! To counter `statcounter.com` in Peter Lowe's
 ! https://github.com/uBlockOrigin/uAssets/commit/1142bef68ee287d27f6191c433ff8491570b6612
 ||statcounter.com^$badfilter
-||statcounter.com^$3p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142003
 vindobona.org#@#.ads_footer
@@ -5382,9 +5381,9 @@ topgear.com##+js(set, _sp_.config.events.onSPPMObjectReady, noopFunc)
 @@||micro.rubiconproject.com/prebid/dynamic/$script,domain=worldsurfleague.com
 @@||securepubads.g.doubleclick.net/pagead/ima_ppub_config$xhr,domain=worldsurfleague.com
 !#if env_firefox
-imasdk.googleapis.com##+js(no-xhr-if, worldsurfleague.com, war:noop-vmap1.0.xml)
+imasdk.googleapis.com##+js(trusted-prevent-xhr, worldsurfleague.com, <vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0"></vmap:VMAP>)
 !#else
-||pubads.g.doubleclick.net/gampad/ads?*www.worldsurfleague.com$xhr,redirect=noop-vmap1.0.xml:5,domain=imasdk.googleapis.com
+||pubads.g.doubleclick.net/gampad/ads?*www.worldsurfleague.com$xhr,redirect=noop-vmap1.xml:5,domain=imasdk.googleapis.com
 !#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/25049
@@ -6094,3 +6093,13 @@ funradio.fr##+js(trusted-set, getUserConsentStatus, json:{"dailymotion":true}, a
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34996
 @@||speedcubeshop.com/cdn/shopifycloud/consent-tracking-api/v*/consent-tracking-api.js$1p
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/80265#issuecomment-818787175
+||log.nordot.jp^$badfilter
+||log.nordot.jp/pageview
+
+! https://github.com/uBlockOrigin/uAssets/issues/35085
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5,domain=theglobeandmail.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/35181
+@@||h-visa2.online-metrix.net^$frame,domain=src.visa.com
